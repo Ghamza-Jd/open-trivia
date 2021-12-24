@@ -2,7 +2,7 @@ import React from 'react';
 import {View, StyleSheet} from 'react-native';
 
 import {IMainMenuViewModel} from './MainMenu.vm';
-import {MenuButton} from '../../components/buttons/MenuButton';
+import {MenuButton} from '&components/buttons/MenuButton';
 
 interface IMainMenu {
   vm: IMainMenuViewModel;

@@ -1,4 +1,4 @@
-import {env} from '../../environment/EnvVars';
+import {env} from '&env/EnvVars';
 import {get} from '../clients/WebClient';
 
 export const getCategories = async (): Promise<any> => {
