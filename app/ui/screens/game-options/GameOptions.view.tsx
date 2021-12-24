@@ -1,5 +1,6 @@
 import React from 'react';
 import {View, Text, StyleSheet} from 'react-native';
+
 import {useGameOptionsViewModel} from './GameOptions.vm';
 
 export const GameOptions = () => {

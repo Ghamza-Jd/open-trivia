@@ -1,4 +1,4 @@
-import {getCategoriesService} from '../../../service/Categories';
+import {getCategoriesService} from '&services/Categories';
 
 export const useGameOptionsViewModel = () => {
   const getCategories = async () => {
