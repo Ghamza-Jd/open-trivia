@@ -2,8 +2,7 @@ import React from 'react';
 import {NavigationContainer} from '@react-navigation/native';
 import {createNativeStackNavigator} from '@react-navigation/native-stack';
 
-import {MainMenu} from '&screens/main-menu/MainMenu.view';
-import {useMainMenuViewModel} from '&screens/main-menu/MainMenu.vm';
+import {useMainMenuViewModel, MainMenu} from '&screens/main-menu';
 import {GameOptions} from '&screens/game-options/GameOptions.view';
 
 const {Navigator, Screen} = createNativeStackNavigator();
