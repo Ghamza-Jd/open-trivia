@@ -19,7 +19,7 @@ module.exports = {
         alias: {
           "&components": "./app/ui/components",
           "&screens": "./app/ui/screens",
-          "&navigation": "./app/ui/navigation",
+          "&navigators": "./app/ui/navigators",
           "&models": "./app/models",
           "&services": "./app/services",
           "&repos": "./app/repos",
